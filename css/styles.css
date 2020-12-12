@@ -1,0 +1,86 @@
+body {
+    background-color: lightgrey;
+}
+
+h1 {
+    font-style: italic;
+    color: gold;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    padding: 10px;
+}
+
+#city {
+    font-size: 3em;
+    font-style: oblique;
+    color: white;
+}
+
+#td1 {
+    color: blue;
+    text-align: right;
+}
+
+#td2 {
+    color: red;
+    text-align: center;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#td3 {
+    color: blue;
+    text-align: left;
+}
+
+footer {
+    padding-top: 20px;
+    text-align: center;
+    font-size: small;
+}
+
+input[type=text] {
+    border: 4px solid gold;
+    border-radius: 8px;
+    background-color: red;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card1 {
+  background-color: green !important;
+  border: 4px solid white;
+  padding: 10px;
+  margin: 0 10% 0 10%;
+}
+
+.card2 {
+  background-color: white !important;
+  border: 4px solid rgb(79, 185, 227);
+  padding: 10px;
+  margin: 5% 10% 0 10%;
+}
+
+#zip {
+    color: white;
+}
+
+#frivilous {
+    animation: blinker 3s linear infinite;
+    font-size:2em;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
