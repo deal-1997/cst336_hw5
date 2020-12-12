@@ -1,0 +1,25 @@
+ <%- include('partials/header.ejs') %>
+    <body>
+        
+        <main>
+            
+            <h1> The Local Weather Update Based On Your City </h1>
+            <form action="#"></form>
+            <h2>Enter The Zip Code From Your City: <input id="zip" type="text" name="keyword"></h2>
+            <a id="recentZipCodeLink" href="/getKeywords">Recent Zip Code Searches</a>
+            </form><br>
+            <hr>
+            <div id="resultsContainer">
+                <% imageUrlArray.forEach(function(imageUrl, i){ %>
+                    <%- (i % 3 == 0)?'<br>':'' %>
+                        <img class="image" src='<%= imageUrl %>' width='200' height='200'/>
+                        <img class="favoriteIcon" src='img/favorite.png' width='20'>
+                <% });%>
+             </div>
+        </main>
+        
+        
+<%- include('partials/footer.ejs') %>
+
+    </body>
+</html>
